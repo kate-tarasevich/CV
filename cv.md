@@ -7,10 +7,12 @@
 * Email: katttka98@gmail.com
 * GitHub: [kate-tarasevich](https://github.com/kate-tarasevich)
 * LinkedIn: [Ekaterina Tarasevich](https://www.linkedin.com/in/ekaterina-tarasevich-7270b71b5/)
+
 ********* 
 ### About Me
 ********* 
 Hello! I am a junior frontend developer who is willing and able to work in a team. My skills and passion for my work make me a valuable member of the team. I strive for continuous growth and development in this field and am ready to fully dedicate myself to success in this role.
+
 ********* 
 ### Skills
 ********* 
@@ -21,9 +23,11 @@ Hello! I am a junior frontend developer who is willing and able to work in a tea
 * C (basic knowledge), Python(basic knowledge)
 * Windows OS, Linux(Ubuntu)
 * Figma(only for web development)
+
 ********* 
 ### Education
 ********* 
+
 1.ENGINEER’S DEGREE (2013-2017) Higher State college of communication
     Specialization: Telecommunications
     Technology/Technician
@@ -33,15 +37,14 @@ Hello! I am a junior frontend developer who is willing and able to work in a tea
 ********* 
 ### Work Experiences
 ********* 
-1.SYSTEM ADMINISTRATOR Belarus, Minsk (2020-2021)
+1. SYSTEM ADMINISTRATOR Belarus, Minsk (2020-2021)
     I ensured the functionality of computers, deployed
     virtual machines on Linux, and worked with
     firewalls. My responsibilities included maintaining
     computer performance, configuring virtual
     environments, and ensuring network security.
 
-*********
-2.SOFTWARE ENGINEER INTERN SevenSenders Berlin, Germany (apr- jul 2022)
+2. SOFTWARE ENGINEER INTERN SevenSenders Berlin, Germany (apr- jul 2022)
     During my previous internship as a Fullstack
     engineer, I worked on tasks utilizing Python, SQL,
     JavaScript, HTML, and CSS. My responsibilities
@@ -61,6 +64,7 @@ Hello! I am a junior frontend developer who is willing and able to work in a tea
 1. Russian - native
 2. English - B2(upper intermediate evel)
 3. German - A2(Pre-intermediate level)
+
 ********* 
 ### Projects examples
 ********* 
