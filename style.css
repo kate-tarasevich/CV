@@ -46,7 +46,10 @@ nav a{
     text-align: center;
     padding: 10px;
     margin: 0 250px 0 78px;
-    font-size: 17px;
+    color: #5C6168;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 nav a:last-child{
     margin-right: 77px;
@@ -65,12 +68,6 @@ nav a:last-child{
 .center-line{
     margin: 0 auto 40px auto;
     width: 210px;
-}
-nav a{
-    color: #5C6168;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 700;
 }
 
 li:last-child{
@@ -95,6 +92,7 @@ main{
 }
 .info a{
     text-decoration: none;
+    color: #5C6168;
 }
 .info li{
     margin-bottom: 7px;
