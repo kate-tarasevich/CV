@@ -160,10 +160,17 @@ main{
     border: none;
     border-radius: 5%;
     padding: 7px;
+    color:#5C6168;
+}
+.box button:hover{
+    background-color: #605F7D;
+    transition: ease-in 0.3s;
     color:#FFFFFF;
 }
-.box button :hover{
-    background-color: #605F7D;
+.code{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }
 
 footer{

@@ -149,9 +149,33 @@
                     </div>
                 </div>
             </div>
-            <div class="code-example">
+            <div>
                 <h2>CODE EXAMPLE</h2>
                 <hr class="line center-line">
+                <div class="code">
+                    <code>
+                        &lt;<span><p></span>window.addEventListener('DOMContentLoaded', () => {<br>
+                            const menu = document.querySelector('.nav-menu'),<br>
+                            menuItem = document.querySelectorAll('.nav-menu__list-item'),<br>
+                            hamburger = document.querySelector('.hamburger');<br>
+                            <br>
+                            hamburger.addEventListener('click', () => {<br>
+                                hamburger.classList.toggle('hamburger_active');<br>
+                                menu.classList.toggle('nav-menu_active');<br>
+                            });<br>
+                            <br>
+                            menuItem.forEach(item => {<br>
+                                item.addEventListener('click', () => {<br>
+                                    hamburger.classList.toggle('hamburger_active');<br>
+                                    menu.classList.toggle('nav-menu_active');<br>
+                                })
+                            })
+                        })<span></p></span>&gt;
+                    </code>
+                    <div class="code-desc">
+                        <p>This code provides the functionality for opening and closing the menu when the hamburger button is clicked, and also closing the menu when a menu item is selected.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
