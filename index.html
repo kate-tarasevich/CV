@@ -9,25 +9,21 @@
     <link rel="icon" type="image/x-icon" href="img/cv.png">
     <meta name="description" content="The best CV">
 </head>
-<body>
+<body id="about_me">
     <header>
         <nav>
-            <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Work Experiences</a></li>
-                <li><a href="#">Languages</a></li>
-                <li><a href="#">Projects examples</a></li>
-            </ul>
+            <a href="#about_me">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#code">Code example</a>
         </nav>
     </header>
     <main>
-        <section class="info">
+        <section class="info"  >
             <div class="name">
                 <h1>Kate Tarasevich</h1>
                 <p>JUNIOR FRONTEND DEVELOPER</p>
                 <div class="row">
-                    <img src="/img/Vector.svg" alt="location">
+                    <img src="img/location.svg" alt="location" width="20px">
                     <p>Berlin, Germany</p>
                 </div>
             </div>
@@ -35,19 +31,19 @@
                 <div class="foto"><img src="img/foto.jpeg" alt="foto"></div>
                 <ul>
                     <li class="row">
-                        <img src="/img/mail.png" alt="mail" width="11" height="8">
+                        <img src="img/mail.svg" alt="mail" width="15px" height="15px">
                         <p>katttka98@gmail.com</p>
                     </li>
                     <li class="row">
-                        <img src="/img/phone.png" alt="phone" width="8" height="11">
+                        <img src="img/phone.svg" alt="phone" width="15px" height="15px">
                         <p>+49 1622 499 947</p>
                     </li>
                     <li class="row">
-                        <img src="/img/Linkedin.png" alt="Linkedin" width="12" height="12">
+                        <img src="img/Linkedin.svg" alt="Linkedin" width="15px" height="15px">
                         <a href="https://www.linkedin.com/in/ekaterina-tarasevich-7270b71b5/">Ekaterina Tarasevich</a>
                     </li>
                     <li class="row">
-                        <img src="/img/git.png" alt="github"  width="12" height="12">
+                        <img src="img/network.svg" alt="github"  width="15px" height="15px">
                         <a href="https://github.com/kate-tarasevich">github: kate-tarasevich</a>
                     </li>
                 </ul>
@@ -62,7 +58,6 @@
                         <li><b>Belarusian State Academy of communication </b></li>
                         <li>(2017 – 2020)</li>
                         <li>Specialization: Infocommunication systems</li>
-                        <br>
                         <li><b>Higher State college of communication</b></li>
                         <li>(2013 – 2017)</li>
                         <li>Specialization: Telecommunications Technology/Technician</li>
@@ -113,15 +108,15 @@
             </div>
         </section>
         <section class="progress">
-            <div class="progects">
-                <h2>PROGECTS</h2>
+            <div class="progects" id="projects">
+                <h2>PROJECTS</h2>
                 <hr class="line center-line">
                 <div class="box">
                     <img src="img/promo.jpg" alt="">
                     <div class="box-desc">
                         <h3>Promo to intensive</h3>
                         <p>HTML, CSS</p>
-                        <a href="https://kate-tarasevich.github.io/Promo-to-intensive/"><button>See project</button></a>
+                        <a class="btn" href="https://kate-tarasevich.github.io/Promo-to-intensive/">See project</a>
                     </div>
                 </div>
                 <div class="box">
@@ -129,7 +124,7 @@
                     <div class="box-desc">
                         <h3> Bakery</h3>
                         <p>HTML, CSS</p>
-                        <a href="https://kate-tarasevich.github.io/Bakery/"><button >See project</button></a>
+                        <a class="btn" href="https://kate-tarasevich.github.io/Bakery/">See project</a>
                     </div>
                 </div>
                 <div class="box">
@@ -137,7 +132,7 @@
                     <div class="box-desc">
                         <h3>Guitar lessons</h3>
                         <p>HTML, CSS, Sass, JS, SCSS</p>
-                        <a href="https://kate-tarasevich.github.io/Guitar-lessons/"><button>See project</button></a>
+                        <a class="btn" href="https://kate-tarasevich.github.io/Guitar-lessons/">See project</a>
                     </div>
                 </div>
                 <div class="box">
@@ -145,16 +140,16 @@
                     <div class="box-desc">
                         <h3>Coffee house</h3>
                         <p>HTML, CSS, Sass, JS, SCSS</p>
-                        <a href="https://kate-tarasevich.github.io/coffee-house/index.html"><button>See project</button></a>
+                        <a class="btn" href="https://kate-tarasevich.github.io/coffee-house/index.html">See project</a>
                     </div>
                 </div>
             </div>
             <div>
                 <h2>CODE EXAMPLE</h2>
                 <hr class="line center-line">
-                <div class="code">
-                    <code>
-                        &lt;<span><p></span>window.addEventListener('DOMContentLoaded', () => {<br>
+                <div class="example">
+                    <div class="code" id="code">
+                        &lt;<p>window.addEventListener('DOMContentLoaded', () => {<br>
                             const menu = document.querySelector('.nav-menu'),<br>
                             menuItem = document.querySelectorAll('.nav-menu__list-item'),<br>
                             hamburger = document.querySelector('.hamburger');<br>
@@ -170,8 +165,8 @@
                                     menu.classList.toggle('nav-menu_active');<br>
                                 })
                             })
-                        })<span></p></span>&gt;
-                    </code>
+                        })</p>&gt;
+                    </div>
                     <div class="code-desc">
                         <p>This code provides the functionality for opening and closing the menu when the hamburger button is clicked, and also closing the menu when a menu item is selected.</p>
                     </div>
@@ -184,7 +179,7 @@
         </div> -->
         <a href="https://github.com/kate-tarasevich">GitHub</a>
         <time>2024</time>
-        <a href="https://rs.school/courses/javascript-ru"><img src="/img/rs.svg" alt="rs logo"></a>
+        <a href="https://rs.school/courses/javascript-ru"><img src="img/rs.svg" alt="rs logo"></a>
     </footer>
 </body>
 </html>
