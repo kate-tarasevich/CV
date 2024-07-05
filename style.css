@@ -27,17 +27,20 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
+    background-color: #FFFFFF;
+    margin: 20px 0;
 }
 nav{
-    margin-bottom: 10px;
-    margin: 0 auto ;
+    /* margin-bottom: 10px; */
+    margin: 7px auto ;
 }
-ul{
+nav ul{
     list-style-type: none;
     text-align: center;
     padding: 0px;
+    margin: 0;
 }
-li{
+nav li{
     display: inline;
     margin-right: 100px;
 }
@@ -113,6 +116,15 @@ main{
     align-items: left;
     width: 300px;
 }
+.wrapper ul{
+    padding-left: 15px;
+    text-align: left;
+ }
+.education ul{
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
 .right-wrapper{
     display: flex;
     flex-direction: column;
@@ -126,6 +138,8 @@ footer{
     height: 3rem;
     margin-bottom: 10px;
     margin: 0 auto;
+    padding-top: 15px;
+    background-color: #FFFFFF;
 }
 footer img{
     height: 26px;
