@@ -153,7 +153,7 @@ main{
     object-fit: cover;
     border-radius: 5%;
 }
-.box button{
+.btn{
     font-size: 16px;
     background-color: #D5DAE4;
     text-decoration: none;
@@ -162,7 +162,7 @@ main{
     padding: 7px;
     color:#5C6168;
 }
-.box button:hover{
+.btn:hover{
     background-color: #605F7D;
     transition: ease-in 0.3s;
     color:#FFFFFF;
