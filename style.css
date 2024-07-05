@@ -41,7 +41,7 @@ li{
     margin-right: 100px;
 }
 
-a{
+nav a{
     color: #000;
     text-decoration: none;
     font-size: 1rem;
@@ -67,6 +67,9 @@ main{
     justify-content: space-around;
     align-items: center;
     gap: 18rem;
+}
+.info a{
+    text-decoration: none;
 }
 .row{
     display: flex;
@@ -109,4 +112,7 @@ footer{
 footer img{
     height: 26px;
     width: 70px;
+}
+footer a{
+    text-decoration: none;
 }
