@@ -19,16 +19,17 @@ html{
 }
 body{
     background-color: #D5DAE4;
+    width: 1200px;
+    margin: 0 auto;
 }
 header{
     display: flex;
     flex-direction: row;
     text-align: center;
-    /* margin: 0 auto 0 auto; */
 }
 nav{
     margin-bottom: 10px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto ;
 }
 ul{
     list-style-type: none;
@@ -55,8 +56,7 @@ main{
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 auto 0 auto;
-    width: 1200px;
+    margin-bottom: 30px;
     height: 100%;
     background-color: #FFFFFF;
     padding: 40px;
@@ -97,4 +97,16 @@ main{
     flex-direction: column;
     align-items: left;
     width: 300px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 3rem;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+footer img{
+    height: 26px;
+    width: 70px;
 }
