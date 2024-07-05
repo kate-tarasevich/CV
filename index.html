@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
+    <link rel="icon" type="image/x-icon" href="img/cv.png">
     <meta name="description" content="The best CV">
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Work Experiences</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Projects examples</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="info">
@@ -22,7 +32,7 @@
                 </div>
             </div>
             <div class="contacts">
-                <div><img src="img/foto.png" alt="foto"></div>
+                <div class="foto"><img src="img/foto.jpeg" alt="foto"></div>
                 <ul>
                     <li class="row">
                         <img src="/img/mail.png" alt="mail" width="11" height="8">
@@ -34,7 +44,7 @@
                     </li>
                     <li class="row">
                         <img src="/img/Linkedin.png" alt="Linkedin" width="12" height="12">
-                        <a href="www.linkedin.com/in/ekaterina-tarasevich-7270b71b5/">Ekaterina Tarasevich</a>
+                        <a href="https://www.linkedin.com/in/ekaterina-tarasevich-7270b71b5/">Ekaterina Tarasevich</a>
                     </li>
                     <li class="row">
                         <img src="/img/git.png" alt="github"  width="12" height="12">
@@ -43,22 +53,138 @@
                 </ul>
             </div>
         </section>
-        <section class="left-wrapper">
-            <div class="title">
-                <h2>EDUCATION</h2>
-                <div class="left-line"></div>
+        <section class="wrapper">
+            <div class="left-wrapper">
+                <div class="education">
+                    <h2>EDUCATION</h2>
+                    <hr class="line">
+                    <ul>
+                        <li><b>Belarusian State Academy of communication </b></li>
+                        <li>(2017 – 2020)</li>
+                        <li>Specialization: Infocommunication systems</li>
+                        <br>
+                        <li><b>Higher State college of communication</b></li>
+                        <li>(2013 – 2017)</li>
+                        <li>Specialization: Telecommunications Technology/Technician</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2>SKILLS</h2>
+                    <hr class="line">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS ( Bootstrap, SCSS, BEM methodology)</li>
+                        <li>JavaScript</li>
+                        <li>Version control: Git </li>
+                        <li>C, C#, C++ (basic knowledge) </li>
+                        <li>Python(basic knowledge)</li>
+                        <li>Windows OS, Linux(Ubuntu)</li>
+                        <li>Figma(only for web development)</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2>LANGUAGES</h2>
+                    <hr class="line">
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - B2</li>
+                        <li>German - A2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-wrapper">
+                <div class="profile">
+                    <h2>PROFILE</h2>
+                    <hr class="line right-line">
+                    <p>Hello! I am a <b>junior frontend developer</b> who is willing and able to work in a team. My skills and passion for my work make me a valuable member of the team. I strive for continuous growth and development in this field and am ready to fully dedicate myself to success in this role.</p>
+                </div>
+                <div class="experience">
+                    <h2>EXPERIENCE</h2>
+                    <hr class="line right-line">
+                    <p><b>Software Engineer intern</b><br>
+                        SEVEN SENDERS GmbH, Berlin, Germany (apr - jul 2022)<br><br>
+                        During my previous internship as a Fullstack engineer, I worked on tasks utilizing Python, SQL, JavaScript, HTML, and CSS. My responsibilities included handling small-scale tasks, working with databases using SQL, and developing the client-side of web applications using JavaScript, HTML, and CSS. Additionally, I participated in code reviews, functionality testing, and working with Git for version control. This internship provided me with an opportunity to enhance my Fullstack development skills and develop effective teamwork abilities.
+                        <br>
+                        <br>
+                        <b>Sytem administrator</b><br>
+                        NIRUP IPPS, Belarus, Minsk (jun 2020 - jun 2021)<br><br>
+                        I ensured the functionality of computers, deployed virtual machines on Linux, and worked with firewalls. My responsibilities included maintaining computer performance, configuring virtual environments, and ensuring network security.</p>
+                </div>
             </div>
         </section>
-        <section class="right-wrapper">
-            <div class="title">
-                <h2>EDUCATION</h2>
-                <div class="left-line"></div>
+        <section class="progress">
+            <div class="progects">
+                <h2>PROGECTS</h2>
+                <hr class="line center-line">
+                <div class="box">
+                    <img src="img/promo.jpg" alt="">
+                    <div class="box-desc">
+                        <h3>Promo to intensive</h3>
+                        <p>HTML, CSS</p>
+                        <a href="https://kate-tarasevich.github.io/Promo-to-intensive/"><button>See project</button></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/bakery.jpg" alt="">
+                    <div class="box-desc">
+                        <h3> Bakery</h3>
+                        <p>HTML, CSS</p>
+                        <a href="https://kate-tarasevich.github.io/Bakery/"><button >See project</button></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/gitar-lesson.jpg" alt="">
+                    <div class="box-desc">
+                        <h3>Guitar lessons</h3>
+                        <p>HTML, CSS, Sass, JS, SCSS</p>
+                        <a href="https://kate-tarasevich.github.io/Guitar-lessons/"><button>See project</button></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/coffee-house.jpg" alt="">
+                    <div class="box-desc">
+                        <h3>Coffee house</h3>
+                        <p>HTML, CSS, Sass, JS, SCSS</p>
+                        <a href="https://kate-tarasevich.github.io/coffee-house/index.html"><button>See project</button></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>CODE EXAMPLE</h2>
+                <hr class="line center-line">
+                <div class="code">
+                    <code>
+                        &lt;<span><p></span>window.addEventListener('DOMContentLoaded', () => {<br>
+                            const menu = document.querySelector('.nav-menu'),<br>
+                            menuItem = document.querySelectorAll('.nav-menu__list-item'),<br>
+                            hamburger = document.querySelector('.hamburger');<br>
+                            <br>
+                            hamburger.addEventListener('click', () => {<br>
+                                hamburger.classList.toggle('hamburger_active');<br>
+                                menu.classList.toggle('nav-menu_active');<br>
+                            });<br>
+                            <br>
+                            menuItem.forEach(item => {<br>
+                                item.addEventListener('click', () => {<br>
+                                    hamburger.classList.toggle('hamburger_active');<br>
+                                    menu.classList.toggle('nav-menu_active');<br>
+                                })
+                            })
+                        })<span></p></span>&gt;
+                    </code>
+                    <div class="code-desc">
+                        <p>This code provides the functionality for opening and closing the menu when the hamburger button is clicked, and also closing the menu when a menu item is selected.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="line">
-        </div>
+        <!-- <div class="line">
+        </div> -->
+        <a href="https://github.com/kate-tarasevich">GitHub</a>
+        <time>2024</time>
+        <a href="https://rs.school/courses/javascript-ru"><img src="/img/rs.svg" alt="rs logo"></a>
     </footer>
 </body>
 </html>
