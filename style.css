@@ -21,6 +21,7 @@ body{
     background-color: #D5DAE4;
     width: 1200px;
     margin: 0 auto;
+    color: #5C6168;
 }
 header{
     display: flex;
@@ -40,9 +41,19 @@ li{
     display: inline;
     margin-right: 100px;
 }
+.line{
+    height: 3px;
+    width: 55px;
+    background:#5C6168;
+    margin: 0;
 
+}
+.right-line{
+    width: 150px;
+    margin-left: -45px;
+}
 nav a{
-    color: #000;
+    color: #5C6168;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
@@ -66,10 +77,17 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 18rem;
+    gap: 15rem;
 }
 .info a{
     text-decoration: none;
+}
+.info li{
+    margin-bottom: 7px;
+}
+.foto img{
+    border-radius: 100%;
+    height: 8rem;
 }
 .row{
     display: flex;
@@ -79,7 +97,7 @@ main{
 .contacts{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 3rem;
     p {
         margin: 0;
     }
