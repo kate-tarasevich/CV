@@ -95,6 +95,7 @@ main{
     justify-content: space-around;
     align-items: center;
     gap: 12rem;
+    margin-bottom: 20px;
     li {
         margin-bottom: 7px;
     }
@@ -127,7 +128,8 @@ main{
 .wrapper{
     display: flex;
     flex-direction: row;
-    gap: 15rem;
+    gap: 8rem;
+    margin-bottom: 30px;
     ul{
         padding-left: 15px;
         text-align: left;
@@ -138,7 +140,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 300px;
+    width: 24rem;
 }
 .education ul{
     text-align: left;
