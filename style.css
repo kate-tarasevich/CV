@@ -43,7 +43,6 @@ nav{
     position: fixed;
     top: 0;
     overflow: hidden;
-    background-color: #FFFFFF;
 }
 nav a{
     float: left;
@@ -51,11 +50,15 @@ nav a{
     list-style-type: none;
     text-align: center;
     padding: 10px;
-    margin: 0 250px 0 78px;
+    margin: 0px 60px 0 78px;
     color: #5C6168;
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
+    border: 5px solid #D5DAE4;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    width: 255px;
 }
 nav a:last-child{
     margin-right: 77px;
@@ -88,6 +91,7 @@ main{
     height: 100%;
     background-color: #FFFFFF;
     padding: 20px 40px 40px 40px;
+    border-radius: 30px;
 }
 .info{
     display: flex;
@@ -96,15 +100,13 @@ main{
     align-items: center;
     gap: 12rem;
     margin-bottom: 20px;
-    li {
-        margin-bottom: 7px;
-    }
-    a{
-        text-decoration: none;
-        color: #5C6168;
-        font-size: 20px;
-    }
 }
+.info a{
+    text-decoration: none;
+    color: #5C6168;
+    font-size: 20px;
+}
+
 .foto img{
     border-radius: 100%;
     height: 12rem;
@@ -176,7 +178,7 @@ main{
     background-color: #D5DAE4;
     text-decoration: none;
     border: none;
-    border-radius: 5%;
+    border-radius: 30px;
     padding: 7px;
     color:#5C6168;
 }
